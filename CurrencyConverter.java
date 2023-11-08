@@ -68,7 +68,7 @@ public class CurrencyConverter {
             System.out.print("Enter the amount to convert: ");
             double amount = scanner.nextDouble();
 
-            String apiKey = "d45fc2b2a6mshe7aaa45736d4e86p1d2723jsnea4fc195e92e"; // Your provided API key
+            String apiKey = "9a139f16b3db11d46b1836a943cd30a7"; // Your provided API key
             String result = convertCurrency(fromCurrency, toCurrency, amount, apiKey);
             System.out.println(result);
         } catch (Exception e) {
